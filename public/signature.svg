@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
+      .sig {
+        font-family: 'Great Vibes', cursive;
+        font-size: 64px;
+        fill: #ffffff;
+      }
+      .line {
+        stroke: #ffffff;
+        stroke-width: 1;
+        opacity: 0.5;
+      }
+      .dot {
+        fill: #ffffff;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" class="sig">Adarsh Kumar</text>
+  <line x1="130" y1="120" x2="190" y2="120" class="line" />
+  <circle cx="200" cy="120" r="2" class="dot" />
+  <line x1="210" y1="120" x2="270" y2="120" class="line" />
+</svg>
