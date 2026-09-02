@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪐 ADARSH KUMAR — 3D DEVELOPER PORTFOLIO
+#  ADARSH KUMAR — 3D DEVELOPER PORTFOLIO
 **Modern, Awwwards-Inspired Portfolio featuring 3D WebGL, GSAP ScrollTrigger, and Full-Stack Project Showcases.**
 
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
