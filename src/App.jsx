@@ -5,7 +5,6 @@ import Lenis from '@studio-freight/lenis';
 import { HelmetProvider } from 'react-helmet-async';
 import './index.css';
 
-import Cursor from './components/Cursor';
 import Preloader from './components/Preloader';
 import PageTransition from './components/PageTransition';
 
@@ -42,7 +41,6 @@ function App() {
 
   return (
     <HelmetProvider>
-      <Cursor />
       <AnimatePresence mode="wait">
         {loading ? (
           <Preloader key="preloader" onComplete={() => setLoading(false)} />
