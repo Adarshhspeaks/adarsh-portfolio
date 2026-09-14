@@ -228,26 +228,30 @@ a {
 
 /* SECONDARY PORTRAIT (About Bio) */
 .secondary-portrait-section {
-  padding: 10rem 2rem;
+  padding: 8rem 2rem;
   display: flex;
   justify-content: center;
 }
 
 .bio-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6rem;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 5rem;
   max-width: 1000px;
-  align-items: stretch;
+  align-items: center;
 }
 
 .bio-image {
   width: 100%;
-  height: 100%;
+  max-width: 380px;
+  max-height: 460px;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: 80% center;
-  /* Focuses the crop on the subject's face on the right side */
-  border-radius: 8px;
+  object-position: center 20%;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  justify-self: center;
 }
 
 .bio-content {
@@ -1056,7 +1060,28 @@ a {
 /* RESPONSIVE */
 @media (max-width: 1024px) {
 
-  .bio-grid,
+  .secondary-portrait-section {
+    padding: 5rem 2rem;
+  }
+
+  .bio-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    justify-items: center;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  .bio-image {
+    width: 100%;
+    max-width: 300px;
+    max-height: 380px;
+    aspect-ratio: 4 / 5;
+    margin: 0 auto;
+    border-radius: 14px;
+    object-position: center 20%;
+  }
+
   .expertise-item,
   .metrics-grid,
   .testimonials-grid {
@@ -1285,6 +1310,26 @@ a {
     gap: 2rem;
   }
 
+  .secondary-portrait-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .bio-grid {
+    gap: 2.5rem;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .bio-image {
+    width: 100%;
+    max-width: 250px;
+    max-height: 310px;
+    aspect-ratio: 4 / 5;
+    border-radius: 14px;
+    margin: 0 auto;
+    object-position: center 20%;
+  }
+
   .about-section {
     padding: 5rem 1rem 2rem;
     text-align: center;
@@ -1438,5 +1483,19 @@ a {
   .exp-tag {
     font-size: 13px;
     padding: 0.8rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .bio-image {
+    max-width: 210px;
+    max-height: 260px;
+    aspect-ratio: 4 / 5;
+    border-radius: 12px;
+  }
+
+  .bio-content {
+    font-size: 17px;
+    line-height: 1.55;
   }
 }
