@@ -179,29 +179,31 @@ def build_pdf(filename):
     # 5. Projects
     add_section("PROJECTS")
     
-    # Project 1: Cosmic Watch
+    # Project 1: BRICS-CLIMATY
+    story.append(Paragraph("<b>BRICS-CLIMATY – Climate Intelligence & Sustainability Platform</b> &nbsp;|&nbsp; <i>React 18, Vite, Leaflet, Supabase</i>", item_title_left))
+    story.append(Paragraph("• <b>Real-Time Airshed Telemetry:</b> Engineered interactive geospatial atmospheric monitoring using Leaflet and live environmental telemetry across BRICS+ territories.", bullet_text))
+    story.append(Paragraph("• <b>Solar ROI & Carbon Calculator:</b> Developed dynamic multi-currency solar ROI algorithms and carbon offset calculation engine with Supabase backend persistence.", bullet_text))
+    story.append(Paragraph("• <b>Clean Air Restoration Frameworks:</b> Built comprehensive policy, impact tracking, and sustainability action modules for institutional and municipal stakeholders.", bullet_text))
+    story.append(Spacer(1, 3))
+
+    # Project 2: Cosmic Watch
     story.append(Paragraph("<b>COSMIC WATCH – NASA 3D Solar System & NEO Radar</b> &nbsp;|&nbsp; <i>React, TypeScript, Three.js, NASA API, Vite</i>", item_title_left))
     story.append(Paragraph("• <b>Full 3D Heliocentric Planetary Engine:</b> Developed a real-time scaled planetary simulation with high-resolution textures, axial tilts, and orbital physics using Three.js.", bullet_text))
     story.append(Paragraph("• <b>Live Asteroid Tracking:</b> Connected NASA JPL NeoWs telemetry to track Near-Earth Objects (NEOs) and Potentially Hazardous Asteroids (PHAs) with true 3D Keplerian mechanics.", bullet_text))
     story.append(Paragraph("• <b>Aerospace HUD:</b> Implemented time-acceleration controls, spacecraft mission telemetry, and live planetary distance radar.", bullet_text))
     story.append(Spacer(1, 3))
 
-    # Project 2: Darshya
+    # Project 3: Darshya
     story.append(Paragraph("<b>DARSHYA – AI-Powered Resume Builder & ATS Analyzer</b> &nbsp;|&nbsp; <i>Python, Flask, Google Gemini AI, Firebase</i>", item_title_left))
     story.append(Paragraph("• <b>AI Analysis Engine:</b> Integrated Google Gemini LLM to analyze resume keywords against target job descriptions, delivering instant ATS optimization scores.", bullet_text))
     story.append(Paragraph("• <b>Full-Stack Workflow:</b> Engineered dynamic builder interface with Firebase authentication, real-time preview, and PDF rendering.", bullet_text))
     story.append(Spacer(1, 3))
 
-    # Project 3: Prithvilok
+    # Project 4: Prithvilok
     story.append(Paragraph("<b>PRITHVILOK – Decentralized Sustainability Platform</b> &nbsp;|&nbsp; <i>React, Node.js, MongoDB, Solidity, Python, Socket.io</i>", item_title_left))
     story.append(Paragraph("• <b>Web3 Gamification:</b> Built a blockchain reward system (Solidity smart contracts, Ethers.js) allowing users to earn Eco-Points and mint Green NFTs.", bullet_text))
     story.append(Paragraph("• <b>ML Classification:</b> Integrated a Python computer vision microservice classifying waste images to compute energy savings.", bullet_text))
     story.append(Paragraph("• <b>3D Earth & Real-Time Tracking:</b> Rendered interactive 3D globe using React Three Fiber and live AQI/WQI environmental maps.", bullet_text))
-    story.append(Spacer(1, 3))
-
-    # Project 4: Shift Manager
-    story.append(Paragraph("<b>Employee Shift Management System</b> &nbsp;|&nbsp; <i>Java, Swing GUI, OOP, Serialization</i>", item_title_left))
-    story.append(Paragraph("• Built a role-based desktop scheduling app supporting shift rotation, swap workflows, and persistent file-based Java serialization.", bullet_text))
     story.append(Spacer(1, 4))
 
     # 6. Experience

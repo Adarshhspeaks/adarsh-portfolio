@@ -1,4 +1,5 @@
 import cosmicWatchImg from '../assets/cosmic-watch.jpg';
+import bricsClimatyImg from '../assets/brics-climaty.jpg';
 import metaDatabasesImg from '../assets/meta-database.jpg';
 import googleGenAiImg from '../assets/cert-google-genai.jpg';
 import n8nDeepseekImg from '../assets/cert-n8n-deepseek.jpg';
@@ -8,6 +9,13 @@ import cloudComputingImg from '../assets/cert-cloud-computing.jpg';
 import genaiArchitectureImg from '../assets/cert-genai-architecture.jpg';
 
 export const PROJECTS = [
+  {
+    client: 'CLIMATE INTELLIGENCE & SUSTAINABILITY',
+    title: 'BRICS-CLIMATY',
+    desc: 'Climate intelligence & sustainability platform for BRICS+ nations featuring real-time airshed telemetry, multi-currency solar ROI & carbon offset calculator, and clean air restoration frameworks. Built with React 18, Vite, Leaflet, and Supabase.',
+    link: 'https://brics-climaty.vercel.app/',
+    img: bricsClimatyImg
+  },
   {
     client: 'NASA 3D SIMULATION & WEBGL',
     title: 'COSMIC WATCH',

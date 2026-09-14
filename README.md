@@ -28,6 +28,7 @@ A high-performance personal portfolio engineered for **Adarsh Kumar** (Full-Stac
 * **🎡 GSAP Pin & Horizontal Carousel:** Smooth pin-scrolling horizontal project carousel powered by GSAP `ScrollTrigger` and `@studio-freight/lenis`.
 * **✨ Fluid Animations & Transitions:** Staggered viewport reveals, magnetic buttons, custom cursor follower, and page transitions via `framer-motion`.
 * **🪐 Featured Projects Hub:**
+  * **[BRICS-CLIMATY](https://brics-climaty.vercel.app/):** Climate intelligence & sustainability platform for BRICS+ nations featuring real-time airshed telemetry, multi-currency solar ROI calculator, and clean air restoration frameworks.
   * **[Cosmic Watch](https://cosmic-watch-nine.vercel.app/):** NASA 3D Heliocentric Solar System & Near-Earth Asteroid (NEO) radar simulation.
   * **[Darshya](https://darshya.onrender.com/):** AI-powered resume builder and ATS analyzer built with Python, Flask, Google Gemini AI, and Firebase.
   * **Prithvilok:** Decentralized sustainability platform with Web3 Ethers.js reward systems and Python ML microservices.
