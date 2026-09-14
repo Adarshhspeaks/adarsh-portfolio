@@ -155,7 +155,7 @@ button {
   width: 100vw;
   height: 120vh;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: 35% center;
   filter: contrast(1.05) brightness(0.95);
 }
 
@@ -1132,7 +1132,8 @@ button {
 
   /* Hero fixes */
   .hero-container {
-    height: 85vh;
+    height: 100vh;
+    height: 100dvh;
     min-height: 520px;
     position: relative;
     overflow: hidden;
@@ -1155,7 +1156,7 @@ button {
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: 72% center;
+    object-position: 35% center;
   }
 
   .hero-signature {
