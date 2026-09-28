@@ -1,5 +1,6 @@
 import cosmicWatchImg from '../assets/cosmic-watch.jpg';
 import bricsClimatyImg from '../assets/brics-climaty.jpg';
+import kashperImg from '../assets/kashper.jpg';
 import metaDatabasesImg from '../assets/meta-database.jpg';
 import googleGenAiImg from '../assets/cert-google-genai.jpg';
 import n8nDeepseekImg from '../assets/cert-n8n-deepseek.jpg';
@@ -28,7 +29,7 @@ export const PROJECTS = [
     title: 'KASHPER',
     desc: 'Premium digital studio crafting immersive interactive digital experiences, cutting-edge UI/UX, and high-performance modern web platforms.',
     link: 'https://kashper-hq.web.app/',
-    img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2000&auto=format&fit=crop'
+    img: kashperImg
   },
   {
     client: 'AI & FULL-STACK PLATFORM',
