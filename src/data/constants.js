@@ -24,6 +24,13 @@ export const PROJECTS = [
     img: cosmicWatchImg
   },
   {
+    client: 'PREMIUM DIGITAL STUDIO & WEB',
+    title: 'KASHPER',
+    desc: 'Premium digital studio crafting immersive interactive digital experiences, cutting-edge UI/UX, and high-performance modern web platforms.',
+    link: 'https://kashper-hq.web.app/',
+    img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2000&auto=format&fit=crop'
+  },
+  {
     client: 'AI & FULL-STACK PLATFORM',
     title: 'DARSHYA',
     desc: 'Premium AI-powered resume builder and analyzer built with Python, Flask, Google Gemini, and Firebase.',
