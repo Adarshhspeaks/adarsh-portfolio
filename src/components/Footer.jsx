@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { fadeUpConfig } from '../utils/animations';
-import ContactForm from './ContactForm';
 
 const Footer = () => (
   <footer className="footer theme-dark">
@@ -13,8 +12,10 @@ const Footer = () => (
           <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem'}}>
             <span style={{fontFamily: 'var(--font-mono)', fontSize: '14px'}}>ADARSH KUMAR</span>
           </div>
-          <h2 className="footer-cta-title">Let's Build Something.</h2>
-          <ContactForm />
+          <p className="footer-availability" style={{ marginTop: '0.5rem' }}>
+            Currently studying at<br/>
+            <strong>B.Tech CSE (2024-Present)</strong>
+          </p>
         </div>
         <div style={{textAlign: 'right'}}>
            <div style={{display: 'flex', gap: '1.5rem', fontFamily: 'var(--font-mono)', fontSize: '14px', justifyContent: 'flex-end'}}>
@@ -22,10 +23,6 @@ const Footer = () => (
              <Link to="/">ABOUT</Link>
              <Link to="/certifications">CERTS</Link>
            </div>
-           <p className="footer-availability">
-             Currently studying at<br/>
-             <strong>B.Tech CSE (2024-Present)</strong>
-           </p>
         </div>
       </motion.div>
 
