@@ -35,24 +35,6 @@ export const PROJECTS = [
     title: 'PRITHVILOK',
     desc: 'Decentralized Sustainability Platform featuring an Ethers.js reward system, Python ML waste classification, and a 3D interactive Earth UI.',
     img: 'https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=2000&auto=format&fit=crop'
-  },
-  {
-    client: 'JAVA DESKTOP APP',
-    title: 'Employee Shift Manager',
-    desc: 'GUI-based scheduling system with role-based access, swap request workflows, and persistent storage via Java Serialization.',
-    img: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop'
-  },
-  {
-    client: 'CLOUD & DEVOPS',
-    title: 'Multi-Cloud Architecture',
-    desc: 'Containerized applications using Docker and Kubernetes, demonstrating end-to-end DevOps workflows across AWS, GCP, and Azure.',
-    img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2000&auto=format&fit=crop'
-  },
-  {
-    client: 'FRONTEND DESIGN',
-    title: 'Interactive Web Interfaces',
-    desc: 'Responsive web pages built with React, Framer Motion, and Tailwind CSS, prioritizing dynamic user experiences.',
-    img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2000&auto=format&fit=crop'
   }
 ];
 
