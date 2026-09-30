@@ -16,6 +16,7 @@ import Counter from '../components/Counter';
 import { PROJECTS, EXPERTISE } from '../data/constants';
 import { fadeUpConfig, staggerContainer, staggerItem } from '../utils/animations';
 
+import heroImg from '../assets/hero.jpg';
 import heroHomeImg from '../assets/hero-home.jpg';
 
 const useIsDesktop = () => {
@@ -110,6 +111,34 @@ const HomePage = () => {
             </motion.span>
           ))}
         </p>
+      </section>
+
+      <section className="secondary-portrait-section theme-dark">
+        <div className="bio-grid">
+          <motion.img
+            initial={{ opacity: 0, scale: 0.9, y: 50 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true, margin: "-20%" }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+            src={heroImg}
+            alt="Adarsh Setup"
+            className="bio-image"
+          />
+          <motion.div {...fadeUpConfig}>
+            <p className="bio-content">
+              I am a quick learner with strong <strong>problem-solving skills</strong>, experienced in hackathons and startup-style development. My technical toolkit spans across <strong>Java, Python, C, and JavaScript</strong>, allowing me to build robust applications from the ground up.
+              <br /><br />
+              Beyond standard web development, I am deeply interested in modern architectures involving <strong>Web3 paradigms</strong> (Solidity, Ethers.js) and <strong>Machine Learning</strong> microservices.
+            </p>
+            <div className="bio-footer">
+              <p>Based in Bhubaneswar, Odisha 🇮🇳<br /><strong>CGPA: 7.76</strong> <span style={{ color: 'var(--text-gray)' }}>(up to 4th Semester)</span></p>
+              <div className="bio-socials">
+                <a href="https://github.com/Adarshhspeaks" target="_blank" rel="noreferrer" style={{ color: 'var(--text-white)' }}>GitHub</a>
+                <a href="https://www.linkedin.com/in/adarsh1807" target="_blank" rel="noreferrer" style={{ color: 'var(--text-white)' }}>LinkedIn</a>
+              </div>
+            </div>
+          </motion.div>
+        </div>
       </section>
 
       <div className="theme-light" style={{ width: '100vw' }}>
