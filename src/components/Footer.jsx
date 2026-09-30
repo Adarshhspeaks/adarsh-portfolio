@@ -36,7 +36,6 @@ const Footer = () => (
           <p style={{color: 'var(--text-white)'}}>Bhubaneswar <span style={{color: 'var(--text-gray)'}}>Odisha, India</span></p>
         </div>
         <div style={{textAlign: 'left'}}>
-          <p>Phone: +91 6207343053</p>
           <p>Email: adarshhgupta336@gmail.com</p>
         </div>
         <div className="footer-socials">

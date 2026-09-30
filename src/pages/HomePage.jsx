@@ -41,7 +41,7 @@ const HomePage = () => {
   const yText2 = useTransform(scrollY, [0, 1000], [0, isDesktop ? -100 : 0]);
   const [isInView, setIsInView] = useState(false);
 
-  const aboutText = "Full Stack Developer with hands-on experience building scalable web applications using React, Node.js, Firebase, and cloud platforms. Passionate about Web3, ML integration, and deploying real-world solutions.";
+  const aboutText = "I build full-stack apps that solve real problems, from Web3 platforms to ML-powered tools. I work across React, Node.js and Firebase, and I care about clean code and interfaces people enjoy using. Looking for internships where I can ship real features";
   const words = aboutText.split(" ");
   const container = useRef();
 
@@ -136,7 +136,6 @@ const HomePage = () => {
                 <a href="https://github.com/Adarshhspeaks" target="_blank" rel="noreferrer" style={{ color: 'var(--text-white)' }}>GitHub</a>
                 <a href="https://www.linkedin.com/in/adarsh1807" target="_blank" rel="noreferrer" style={{ color: 'var(--text-white)' }}>LinkedIn</a>
               </div>
-              <a href="/Adarsh_Kumar_Resume.pdf" download="Adarsh_Kumar_Resume.pdf" target="_blank" rel="noreferrer" className="resume-btn">DOWNLOAD RESUMÉ</a>
             </div>
           </motion.div>
         </div>
